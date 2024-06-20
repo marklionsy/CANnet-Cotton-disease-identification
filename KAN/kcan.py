@@ -85,15 +85,7 @@ class KANLinear(torch.nn.Module):
         Returns:
             torch.Tensor: B-spline bases tensor of shape (batch_size, in_features, grid_size + spline_order).
         """
-        """
-        计算给定输入张量的 B-样条基函数。
-
-        参数:
-        x (torch.Tensor): 输入张量，形状为 (batch_size, in_features)。
-
-        返回:
-        torch.Tensor: B-样条基函数张量，形状为 (batch_size, in_features, grid_size + spline_order)。
-        """
+    
         assert x.dim() == 2 and x.size(1) == self.in_features
 
         grid: torch.Tensor = ( 
@@ -130,15 +122,7 @@ class KANLinear(torch.nn.Module):
         Returns:
             torch.Tensor: Coefficients tensor of shape (out_features, in_features, grid_size + spline_order).
         """
-        """
-        计算插值给定点的曲线的系数。
-
-        参数:
-        x (torch.Tensor): 输入张量，形状为 (batch_size, in_features)。
-        y (torch.Tensor): 输出张量，形状为 (batch_size, in_features, out_features)。
-        返回:
-        torch.Tensor: 系数张量，形状为 (out_features, in_features, grid_size + spline_order)。
-        """
+       
         assert x.dim() == 2 and x.size(1) == self.in_features
         assert y.size() == (x.size(0), self.in_features, self.out_features)
        
@@ -162,12 +146,7 @@ class KANLinear(torch.nn.Module):
 
     @property
     def scaled_spline_weight(self):
-        """
-        获取缩放后的分段多项式权重。
-
-        返回:
-        torch.Tensor: 缩放后的分段多项式权重张量，形状与 self.spline_weight 相同。
-        """
+       
         return self.spline_weight * (
             self.spline_scaler.unsqueeze(-1)
             if self.enable_standalone_scale_spline
@@ -175,15 +154,6 @@ class KANLinear(torch.nn.Module):
         )
 
     def forward(self, x: torch.Tensor): 
-        """
-        前向传播函数。
-
-        参数:
-        x (torch.Tensor): 输入张量，形状为 (batch_size, in_features)。
-
-        返回:
-        torch.Tensor: 输出张量，形状为 (batch_size, out_features)。
-        """
         assert x.dim() == 2 and x.size(1) == self.in_features
 
         base_output = F.linear(self.base_activation(x), self.base_weight) 
@@ -255,8 +225,7 @@ class KANLinear(torch.nn.Module):
         The L1 regularization is now computed as mean absolute value of the spline
         weights. The authors implementation also includes this term in addition to the
         sample-based regularization.
-        """
-      
+        """   
   
         l1_fake = self.spline_weight.abs().mean(-1)
         regularization_loss_activation = l1_fake.sum()
