@@ -16,7 +16,7 @@
 
 
 
-link：https://pan.baidu.com/s/12kyDVbPwSBCvB6fOHPdAxQ?pwd=1998 
+link：https://pan.baidu.com/s/12kyDVbPwSBCvB6fOHPdAxQ?pwd=1998 < br >
 password：1998
 
 ``Model/CAN-Net.py`` is the code for the feature extraction section, while ``cls_head/ln_head.py`` is the code for the classification header section.
