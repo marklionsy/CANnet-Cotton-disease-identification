@@ -7,6 +7,10 @@
 | :--- | :---: | ---: |  
 | aaaaa | bbbbb | ccccc |  
 | aa | bb | cc | 
+********************************************************
+##Dataset
+Changji Hui Autonomous Prefecture, Xinjiang, China (``self collected``)<br>
+![](/fig/cotton.png "cotton")
 
 ********************************************************
 ## Train🍉
