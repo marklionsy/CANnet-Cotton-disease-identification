@@ -2,19 +2,19 @@
 ``CANnet`` utilizes artificial intelligence technology to assist agricultural producers in achieving intelligent identification of crop diseases. ``CANnet`` reduces the input of labor costs and has better accuracy and higher recognition efficiency compared to manual recognition.
 ![](/fig/crop.png "crop")
 
-## Experimental effect
+## Experimental effect🎄
 | Model | cotton | cucumber |  
 | :--- | :---: | ---: |  
 | aaaaa | bbbbb | ccccc |  
 | aa | bb | cc | 
 
 ********************************************************
-## Train
+## Train🍉
 
 
 
 ********************************************************
-## Test
+## Test🍒
 You can test it using the following code:<br>
 CPU :<br>
 python  Model/test.py  configs/resnet/resnet18_8xb32_in1k.py``Your test parameter file``  cotton/best_accuracy_top1_epoch_xx.pth``Model weight file``<br>
