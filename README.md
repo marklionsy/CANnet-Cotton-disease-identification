@@ -26,6 +26,7 @@ CUDA_VISIBLE_DEVICES=0``GPU``  python Model/test.py configs/resnet/resnet18_8xb3
 2.You can also directly use our trained weight file to test the dataset, and download the weight file through the following methods:<br>
 link：https://pan.baidu.com/s/12kyDVbPwSBCvB6fOHPdAxQ?pwd=1998 <br>
 password：1998
-
+********************************************************
+## Acknowledgments🍆
 ``Model/CAN-Net.py`` is the code for the feature extraction section, while ``cls_head/ln_head.py`` is the code for the classification header section.
 This project is in ``MMPretrain（ https://github.com/open-mmlab/mmpretrain ）``Conduct experiments within the framework
