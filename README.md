@@ -10,9 +10,11 @@
 
 ********************************************************
 ## Train🍉
-
-
-
+You can train the model using the following commands:<br>
+CPU:<br>
+python Model/train.py configs/resnet/resnet18_8xb32_in1k.py --work-dir resnet50_dir/root3<br>
+GPU:<br>
+CUDA_VISIBLE_DEVICES=7 python Model/train.py configs/resnet/resnet18_8xb32_in1k.py --work-dir resnet50_dir/root3<br>
 ********************************************************
 ## Test🍒
 1.You can test it using the following code:<br>
