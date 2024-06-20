@@ -9,7 +9,7 @@
 ********************************************************
 ## Test
 
-| left | center | right |  
+| Model | cotton | cucumber |  
 | :--- | :---: | ---: |  
 | aaaaa | bbbbb | ccccc |  
 | aa | bb | cc |  
