@@ -16,7 +16,7 @@
 | aa | bb | cc |  
 
 
-
+If you want to directly use our trained weight file to test the dataset, you can do so through the following methods:
 link：https://pan.baidu.com/s/12kyDVbPwSBCvB6fOHPdAxQ?pwd=1998 <br>
 password：1998
 
