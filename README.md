@@ -17,9 +17,9 @@ If you would like to use this dataset for academic research, you can contact: 10
 ## Train🍉
 You can train the model using the following commands:<br>
 CPU:<br>
-python Model/train.py configs/resnet/resnet18_8xb32_in1k.py --work-dir resnet50_dir/root3<br>
+python Model/train.py configs/resnet/resnet18_8xb32_in1k.py --work-dir resnet18_dir/root<br>
 GPU:<br>
-CUDA_VISIBLE_DEVICES=7 python Model/train.py configs/resnet/resnet18_8xb32_in1k.py --work-dir resnet50_dir/root3<br>
+CUDA_VISIBLE_DEVICES=7 python Model/train.py configs/resnet/resnet18_8xb32_in1k.py --work-dir resnet18_dir/root<br>
 ********************************************************
 ## Test🍒
 1.You can test it using the following code:<br>
