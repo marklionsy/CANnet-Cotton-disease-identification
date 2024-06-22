@@ -29,7 +29,7 @@ GPU :<br>
 CUDA_VISIBLE_DEVICES=0``GPU``  python Model/test.py configs/resnet/resnet18_8xb32_in1k.py``Your test parameter file``  cotton/best_accuracy_top1_epoch_xx.pth``Model weight file``<br>
 
 2.You can also directly use our trained weight file to test the dataset, and download the weight file through the following methods:<br>
-link：https://pan.baidu.com/s/12kyDVbPwSBCvB6fOHPdAxQ?pwd=1998 <br>
+Link：https://pan.baidu.com/s/1lPRjAdVsgG_pLbx6Aynppw 
 password：1998
 ********************************************************
 ## Acknowledgments🍆
