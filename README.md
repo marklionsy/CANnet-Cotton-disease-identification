@@ -29,8 +29,7 @@ GPU :<br>
 CUDA_VISIBLE_DEVICES=0``GPU``  python Model/test.py configs/resnet/resnet18_8xb32_in1k.py``Your test parameter file``  cotton/best_accuracy_top1_epoch_xx.pth``Model weight file``<br>
 
 2.You can also directly use our trained weight file to test the dataset, and download the weight file through the following methods:<br>
-Link：https://pan.baidu.com/s/1lPRjAdVsgG_pLbx6Aynppw 
-password：1998
+Link：https://pan.baidu.com/s/1lPRjAdVsgG_pLbx6Aynppw  password：1998
 ********************************************************
 ## Acknowledgments🍆
 ``Model/CAN-Net.py`` is the code for the feature extraction section, while ``cls_head/ln_head.py`` is the code for the classification header section.
