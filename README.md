@@ -1,4 +1,4 @@
-# CANnet🌻Crop disease identification🌱
+# CANnet🌻Cotton disease identification🌱
 ``CANnet`` utilizes artificial intelligence technology to assist agricultural producers in achieving intelligent identification of crop diseases. ``CANnet`` reduces the input of labor costs and has better accuracy and higher recognition efficiency compared to manual recognition.
 ![](/fig/crop.png "crop")
 
