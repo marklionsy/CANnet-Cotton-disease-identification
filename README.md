@@ -4,7 +4,7 @@
 
 ## Dataset
 Changji Hui Autonomous Prefecture, Xinjiang, China (``self collected``)<br>
-![](/fig/cotton.png "cotton")
+![](/fig/cotton_1.png "cotton")
 If you would like to use this dataset for academic research, you can contact: 107552204060@stu.xju.edu.cn<br>
 ********************************************************
 ## Experimental effect🎄
