@@ -1,10 +1,10 @@
 # CANnet🌻Cotton disease identification🌱
 ``CANnet`` utilizes artificial intelligence technology to assist agricultural producers in achieving intelligent identification of crop diseases. ``CANnet`` reduces the input of labor costs and has better accuracy and higher recognition efficiency compared to manual recognition.
-![](/fig/crop.png "crop")
+![](/fig/cotton_1.png "cotton")
 
 ## Dataset
 Changji Hui Autonomous Prefecture, Xinjiang, China (``self collected``)<br>
-![](/fig/cotton_1.png "cotton")
+![](/fig/cotton.png "cotton_dataset")
 If you would like to use this dataset for academic research, you can contact: 107552204060@stu.xju.edu.cn<br>
 ********************************************************
 ## Experimental effect🎄
