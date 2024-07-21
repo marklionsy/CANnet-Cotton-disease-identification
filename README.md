@@ -8,10 +8,10 @@ Changji Hui Autonomous Prefecture, Xinjiang, China (``self-built``)<br>
 If you would like to use this dataset for academic research, you can contact: 107552204060@stu.xju.edu.cn<br>
 ********************************************************
 ## Experimental effect🍉
-| Model | cotton | cucumber |  
-| :--- | :---: | ---: |  
-| aaaaa | bbbbb | ccccc |  
-| aa | bb | cc | 
+| Model | Top1 Acc | Precision | F1 score  
+| :--- | :---: | ---: |  ---: |
+| CANnet | 96.3% | 97.1% | 96.1% | 
+
 
 ********************************************************
 ## Train🎄
