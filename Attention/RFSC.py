@@ -22,7 +22,7 @@ class SE(nn.Module):
         return y
 
 
-class RFCBAMConv(nn.Module):
+class RFSCConv(nn.Module):
     def __init__(self, in_channel, out_channel, kernel_size=3, stride=1, dilation=1):
         super().__init__()
         if kernel_size % 2 == 0:
