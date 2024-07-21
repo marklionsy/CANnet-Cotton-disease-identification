@@ -11,8 +11,8 @@ from mmengine.utils.dl_utils.parrots_wrapper import _BatchNorm
 
 from mmpretrain.registry import MODELS
 from .base_backbone import BaseBackbone
-from Casc_att.Casc_block import CASC
-from Attention.RFCBAM import RFCBAMConv
+from Module.PCA import PCA
+from Attention.RFSC import RFSCConv
 from Casc_att.NL import Non_local
 
 eps = 1.0e-5
@@ -74,7 +74,7 @@ class RFBlock(BaseModule):
         self.norm2_name, norm2 = build_norm_layer(
             norm_cfg, out_channels, postfix=2)
 
-        self.conv1 = RFCBAMConv(in_channels,out_channels,3,stride)
+        self.conv1 = RFSCConv(in_channels,out_channels,3,stride)
         self.add_module(self.norm1_name, norm1)
         self.conv2 = build_conv_layer(
             conv_cfg,
