@@ -13,7 +13,10 @@ Self-built cotton disease dataset<br>
 | :--- | :---: | ---: |  ---: |
 | CANnet | 96.3% | 97.1% | 96.1% | 
 
-
+Public Cotton Disease Dataset<br>
+| Model | Top1 Acc | Precision | F1 score  
+| :--- | :---: | ---: |  ---: |
+| CANnet | 98.6% | 98.8% | 98.6% | 
 ********************************************************
 ## Train🎄
 You can train the model using the following commands:<br>
